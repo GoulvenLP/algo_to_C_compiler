@@ -1,0 +1,5 @@
+fonction(entier fonc, booléen bl): rien
+debut
+entier bins
+truc <- bins + 3
+fin

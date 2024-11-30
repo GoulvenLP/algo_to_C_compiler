@@ -1,0 +1,30 @@
+
+testeLesSi (entier a, entier b): rien
+    début
+    flottant c <- a + b
+    si (c >= a % b) ou (((c + b)/4) = (a - c)) et (b + 3) > c
+        alors
+        c <- 3 + 5
+    fin si
+
+    si a >= c % b
+        alors
+        a <- b + 5
+    sinon si a = b
+        alors
+        b <- b / 2
+    fin si
+
+    si b > 10
+    alors
+        c <- c * 3
+    sinon si b <= a / 4
+    alors
+        c <- a % b
+    sinon
+        c <- c + 2
+    fin si
+
+    retourner c
+    fin
+

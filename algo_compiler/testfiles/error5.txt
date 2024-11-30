@@ -1,0 +1,8 @@
+
+entier a <- 8 + 3
+entier b <- 5
+booléen c <- $toto
+si a + b <= 17
+alors
+    b <- b - 2
+fin si

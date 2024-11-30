@@ -1,0 +1,10 @@
+
+uneFonction(booleen lErreurSeTrouveJusteDevantCarPasDAccent): entier
+debut
+    entier nb <- 0
+    tant que nb <= 20
+    faire
+        nb <- nb + 1
+    fin tant que
+    retourner nb
+fin

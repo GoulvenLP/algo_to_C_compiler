@@ -1,0 +1,6 @@
+
+maFonction(entier nb): entier
+debut
+    entier nb2 <-
+    retourner nb2
+fin

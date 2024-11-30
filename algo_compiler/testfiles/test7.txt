@@ -1,0 +1,39 @@
+
+
+    uneFonc (       flottant a, flottant b      ): flottant
+    debut
+        entier res
+        res <- a % b
+        retourner res
+        fin
+
+autreFonc  (    entier f    , entier g, booléen h): entier
+debut
+entier total <- 0
+si h=faux
+alors
+tant que h = faux
+faire
+total <- (f %g)*2
+si total %3=0
+alors
+h<-     vrai
+si l=vrai
+alors
+l<-'v'
+sinon
+l<-'f'
+fin si
+sinon
+h <- faux
+fin si
+total <- total + l
+fin tant que
+fin si
+retourner l+2
+fin
+
+
+entier toto
+toto  <- 3 * 5
+toto <- toto + uneFonc(4, 12)

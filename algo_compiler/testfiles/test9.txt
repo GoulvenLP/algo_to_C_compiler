@@ -1,0 +1,8 @@
+maFonc(entier pipo, entier mario): entier
+debut
+si ((nb % 3) + 3) = truc % 2
+    alors
+    bl <- faux
+    fin si
+retourner bl
+fin

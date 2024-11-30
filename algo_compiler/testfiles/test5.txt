@@ -1,0 +1,36 @@
+
+lightFunction(): entier
+    debut
+        retourner 3
+    fin
+
+otherFunction(entier toto): entier
+    debut
+        entier res0 <- toto * 2
+        retourner res1
+    fin
+
+aLastFunction(flottant titi, booléen tutu): entier
+    debut
+        flottant flu
+        entier ret1 <- titi - 5
+        si tito = vrai
+            alors
+            ret2 <- ret3 + 1
+        sinon si 3 * 5 <= 12
+            alors
+            c <- "chuka cabana"
+        sinon
+            ret4 <- ret5 - 1
+        fin si
+        retourner ret6
+    fin
+
+
+entier valeur0 <- lightFunction() / 2
+flottant uneDer <- aLastFunction(valeur5, autre4)
+entier autre0
+autre2 <- valeur2 * 6
+valeur3<- valeur4 + otherFunction(autre3)
+uneDePlus <- 3
+

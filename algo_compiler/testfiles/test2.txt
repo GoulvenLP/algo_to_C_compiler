@@ -1,0 +1,20 @@
+
+testerLesTantQue(flottant monFlottant, booléen truc): rien
+    debut
+    booléen bins <- vrai
+    entier increment <- 0
+    tant que truc et monFlottant < 213.5
+        faire
+        monFlottant <- monFlottant * 3.0
+    fin tant que
+
+    tant que bins ou monFlottant >= 2.8 ou 6%3 = 5
+        faire
+        monFlottant <- monFlottant * 3.0
+        tant que increment < 18
+        faire
+        increment <- increment + 1
+        fin tant que
+    fin tant que
+
+    fin

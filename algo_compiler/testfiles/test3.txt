@@ -1,0 +1,30 @@
+
+uneAutreFonction(flottant nombre): booléen
+    debut
+
+    booléen ret
+    entier total <- 0
+
+    pour a de 0 à nombre - 1
+        faire
+
+        total <- total + a
+    fin pour
+
+    si (total > 25) et 5%2 = 1
+        alors
+
+        ret <- vrai
+
+    sinon si (34.7 * total) < 7
+        alors
+            ret <- vrai
+    sinon
+        ret <- faux
+    fin si
+
+    retourner ret
+
+    fin
+
+

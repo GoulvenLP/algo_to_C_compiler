@@ -1,0 +1,18 @@
+
+autreFonction(): entier
+    debut
+
+    booléen monBool <- faux
+    entier ent <- 2
+    flottant truc
+
+    faire
+        si ent > 20
+        alors
+        en <- 2
+        fin si
+        ent <- ent + 2
+
+    tant que ent < 20 ou  monBool = faux
+    retourner toto
+    fin

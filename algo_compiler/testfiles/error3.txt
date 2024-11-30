@@ -1,0 +1,6 @@
+
+fonc(entier ent, entB): entier
+debut
+    entier a <- ent * entB
+    retourner a
+fin

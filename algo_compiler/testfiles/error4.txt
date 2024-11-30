@@ -1,0 +1,4 @@
+fonc(entier ent, entier entB): entier
+debut
+    ent <- ent * entB
+fin

@@ -1,0 +1,26 @@
+
+
+uneFonction( booléen fonc, car c): rien
+    debut
+    entier nb <- 45
+    car c2 <- 'h'
+    si nb - 2 = 6 ou nb % 3 = 7
+        alors
+            nb <- nb / 2
+        si c = 'j'
+            alors
+            c2 <- c2 + 3
+            tant que c1 != c2
+            faire
+                c1 <- c1 + 1
+            fin tant que
+        sinon
+            c <- 'r'
+        fin si
+    fin si
+    fin
+
+
+
+entier bins <- bins / 6
+booléen yuk <- func(vrai)
